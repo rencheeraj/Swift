@@ -25,7 +25,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         ageField.delegate = self
         nameField.delegate = self
-        
+        tableView.delegate = self
+        tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UserTableviewCell")
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -49,9 +50,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "UserTableviewCell", for: indexPath) as? UserTableViewCell else {
-            return UITableViewCell()
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UserTableViewCell", for: indexPath) as! UserTableViewCell
         if let item = users?[indexPath.row] {
             cell.nameLabel?.text = item.name
             cell.ageLabel?.text = String(item.age)

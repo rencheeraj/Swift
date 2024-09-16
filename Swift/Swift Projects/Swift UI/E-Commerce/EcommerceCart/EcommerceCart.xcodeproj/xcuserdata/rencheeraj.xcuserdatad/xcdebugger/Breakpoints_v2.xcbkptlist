@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C405FC5-4C15-4E0B-A100-A7820F39DC46"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54688B85-5020-4B7C-AAD5-024953CF3174"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceCart/ViewModel/DataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchContentData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54688B85-5020-4B7C-AAD5-024953CF3174 - adbfb780a3260f89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static EcommerceCart.DataService.fetchContentData() async throws -&gt; Swift.Array&lt;EcommerceCart.Content&gt;"
+                  moduleName = "EcommerceCart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rencheeraj/Development%20Personal/Swift/Swift/Swift%20Projects/Swift%20UI/E-Commerce/EcommerceCart/EcommerceCart/ViewModel/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20">
+               </Location>
+               <Location
+                  uuid = "54688B85-5020-4B7C-AAD5-024953CF3174 - adbfb780a3260f89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static EcommerceCart.DataService.fetchContentData() async throws -&gt; Swift.Array&lt;EcommerceCart.Content&gt;"
+                  moduleName = "EcommerceCart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rencheeraj/Development%20Personal/Swift/Swift/Swift%20Projects/Swift%20UI/E-Commerce/EcommerceCart/EcommerceCart/ViewModel/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
